@@ -1,0 +1,11 @@
+# Exported from Render on 2024-05-20T05:00:50Z
+services:
+- type: web
+  name: -Polyglot-Springboot
+  runtime: docker
+  repo: https://github.com/MallickTausif/-Polyglot-Springboot
+  plan: free
+  region: oregon
+  dockerContext: .
+  dockerfilePath: ./Dockerfile
+version: "1"
